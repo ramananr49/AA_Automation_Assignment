@@ -1,0 +1,10 @@
+{
+  "URL": "https://community.cloud.automationanywhere.digital/#/login",
+  "username": "RamananRamasamy4@gmail.com",
+  "password": "I@mnumber4",
+  "taskBotName": "ValidateMessage",
+  "taskBotAction": "Message Box",
+  "messageTitle": "Info Message",
+  "messageContent": "Hello World!",
+  "formBotName": "ValidateFormFileUpload"
+}
