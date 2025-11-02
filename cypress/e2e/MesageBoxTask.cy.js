@@ -1,8 +1,5 @@
-import * as LoginPage from './pages/loginPage.js';
-import * as LandingPage from './pages/landingPage.js';
-import * as AutomationPage from './pages/automationPage.js';
-import * as TaskBotPage from './pages/taskBotPage.js';
 import { getCurrentTime } from '../support/utils.js';
+import {LoginPage, LandingPage,AutomationPage, TaskBotPage} from './pages'
 
 describe('UI Task for Automation Anywhere', () => {
   it('Validate the Creation of Task Bot and its fields functionality', () => {

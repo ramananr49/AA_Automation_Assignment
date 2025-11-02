@@ -1,9 +1,5 @@
-import * as LoginPage from "./pages/loginPage.js"
-import * as LandingPage from './pages/landingPage.js';
 import { getCurrentTime } from '../support/utils.js';
-import * as AutomationPage from './pages/automationPage.js';
-import * as TaskBotPage from './pages/taskBotPage.js';
-import * as FormPage from './pages/formPage.js'
+import {LoginPage, LandingPage, AutomationPage, TaskBotPage, FormPage} from 'pages'
 
 describe('UI Task for Automation Anywhere', () => {
   it('Validate the Creation of Form with File Upload functionality', () => {

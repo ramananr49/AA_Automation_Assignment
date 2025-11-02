@@ -1,5 +1,3 @@
-import { getCurrentTime } from '../../support/utils.js';
-
 export const getDropdownCreate = () => {
   return cy.get('button[name="createOptions"]');
 }

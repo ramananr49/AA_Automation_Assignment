@@ -132,7 +132,6 @@ export const verifyTheTextBoxProperties = () => {
   getButtonReset().should('be.visible')
   getButtonDelete().should('be.visible')
   getElementIDField().should('be.visible')
-  // verifyDesiredElementTextContent(getElementIDField(), 'TextBox0')
   getElementLabelField().should('be.visible')
   verifyDesiredElementTextContent(getElementLabelField(), 'TextBox')
   getElementDefaultValueField().should('be.visible')

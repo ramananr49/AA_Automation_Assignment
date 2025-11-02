@@ -1,5 +1,5 @@
-import * as LoginPage from './pages/loginPage.js';
 import { getCurrentTime } from '../support/utils.js';
+import {LoginPage} from './pages'
 
 describe('API Functionality', () => {
   beforeEach(() => {

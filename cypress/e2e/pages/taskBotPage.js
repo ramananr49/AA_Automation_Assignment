@@ -1,5 +1,3 @@
-import { modifiedWord } from '../../support/utils.js';
-
 export const getElementToastMsg = () => {
   return cy.get('div[data-path="Toast"]');
 };
@@ -50,12 +48,6 @@ export const getElementToolTip = () => {
 };
 
 export const verifyMessageBoxTitleField = () => {
-  // verify label text
-  // default text validate
-  // visibility and editable
-  // enter and verify
-  // validate error message "cannot be empty"
-  // verify insert valuve butn presence
   getElementMessageBoxTitleFieldLabel().should('be.visible');
   getElementMessageBoxTitleFieldInput().should('be.visible');
   getElementMessageBoxTitleFieldInsertValueBtn().should('be.visible');
@@ -97,12 +89,6 @@ export const getElementOfDesiredFieldsInsertValueBtn = (fieldNameElement) => {
 };
 
 export const verifyMessageBoxContentField = () => {
-  // verify label text
-  // default text validate
-  // visibility and editable
-  // enter and verify
-  // validate error message "cannot be empty"
-  // verify insert valuve butn presence
   getElementOfDesiredFieldsLabel(getElementMessageBoxContentField()).should('be.visible');
   getElementOfDesiredFieldsInput(getElementMessageBoxContentField()).should('be.visible');
   getElementOfDesiredFieldsInsertValueBtn(getElementMessageBoxContentField()).should('be.visible');
@@ -123,12 +109,6 @@ export const getElementMessageBoxScrollLinesField = () => {
 };
 
 export const verifyMessageBoxScrollLineField = () => {
-  // verify label text
-  // default text validate
-  // visibility and editable
-  // enter and verify
-  // validate error message "cannot be empty"
-  // verify insert valuve butn presence
   getElementOfDesiredFieldsLabel(getElementMessageBoxScrollLinesField()).should('be.visible');
   getElementOfDesiredFieldsInput(getElementMessageBoxScrollLinesField()).should('be.visible');
   getElementOfDesiredFieldsInsertValueBtn(getElementMessageBoxScrollLinesField()).should('be.visible');
